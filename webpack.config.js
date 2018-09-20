@@ -1,3 +1,4 @@
+//ref site https://appdividend.com/2017/06/28/mern-stack-tutorial/
 const path = require('path');
 const outputDirectory = './src/app/dist';
 module.exports = {

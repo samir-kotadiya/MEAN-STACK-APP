@@ -24,6 +24,7 @@
   "dependencies": {
     "axios": "~0.18.0",
     "concurrently": "~4.0.1",
+    "cors": "^2.8.4",
     "express": "~4.16.3",
     "react": "~15.4.2",
     "react-dom": "~15.4.2",
