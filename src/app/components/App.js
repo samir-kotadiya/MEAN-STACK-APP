@@ -1,18 +1,21 @@
-import React, { Component } from 'react';
+// App.js
+import React from 'react';
+import ToDo from '../components/todo';
+import Counter from '../containers/Counter';
+import AddCounter from '../containers/AddCounter';
+import RemoveCounter from '../containers/RemoveCounter';
 
-class App extends Component {
-    render() {
-        return (
-            <div className="App-header">
-                <div>
-                    <h2> Welcome to React</h2>
-                </div>
-                <div>
-                    {this.props.children}
-                </div>
-            </div>
-        );
-    }
+const App = () => {
+  return (
+    <div className="container">
+      <ToDo />
+      <div className="container">
+        <br />
+        <AddCounter />
+        <Counter />
+        <RemoveCounter />
+      </div>
+    </div >
+  )
 }
-
 export default App;
